@@ -15,15 +15,15 @@ const Landing: React.FC = () => {
             <div className="flex flex-col ">
                 <Button 
                 title="Hello"
-                styles="rounded-sm bg-blue-500 px-5 py-2 m-3"
+                styles="rounded-sm bg-blue-500 px-5 py-2 m-3 cursor-pointer hover:bg-blue-900"
                 />
                 <Button 
                 title="HI"
-                styles="rounded-md bg-blue-500 px-5 py-2 m-3"
+                styles="rounded-md bg-blue-500 px-5 py-2 m-3 cursor-pointer hover:bg-blue-900"
                 />
                 <Button 
                 title="Check In"
-                styles="rounded-full bg-blue-500 px-5 py-2 m-3"
+                styles="rounded-full bg-blue-500 px-5 py-2 m-3 cursor-pointer hover:bg-blue-900"
                 />
             </div>
             

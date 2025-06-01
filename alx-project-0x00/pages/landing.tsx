@@ -23,7 +23,7 @@ const Landing: React.FC = () => {
                 />
                 <Button 
                 title="Check In"
-                styles="rounded-full bg-blue-500 px-5 py-2 m-3 cursor-pointer hover:bg-blue-900"
+                styles="rounded-lg bg-blue-500 px-5 py-2 m-3 cursor-pointer hover:bg-blue-900"
                 />
             </div>
             

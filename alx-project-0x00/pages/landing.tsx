@@ -7,26 +7,23 @@ const Landing: React.FC = () => {
             <h1 className="text-x1 font-extralight">
                 Landing Page
             </h1>
-            <div className=" grid grid-cols-3 gap-4 px-4 py-4">
+            <div className=" grid grid-cols-2 gap-4 px-4 py-4">
                 <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                
+                
             </div>
             <div className="flex flex-col ">
                 <Button 
-                title=""
-                styles="rounded-sm "
+                title="Hello"
+                styles="rounded-sm bg-blue-500 px-5 py-2 m-3"
                 />
                 <Button 
-                title=""
-                styles="rounded-md "
+                title="HI"
+                styles="rounded-md bg-blue-500 px-5 py-2 m-3"
                 />
                 <Button 
-                title=""
-                styles="rounded-full "
+                title="Check In"
+                styles="rounded-full bg-blue-500 px-5 py-2 m-3"
                 />
             </div>
             
